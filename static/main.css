@@ -517,6 +517,7 @@ ul.tech-list{
 
 .timeline .date::before{
     content: attr(data-date);
+    white-space: pre;
     left: -21rem;
     text-align: right;
     min-width: 12rem;
