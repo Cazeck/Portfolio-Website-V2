@@ -142,7 +142,7 @@ li{
 }
 
 
-/*
+
 .text-link .cta{
     display: inline-block;
     margin-top: 1rem;
@@ -152,7 +152,7 @@ li{
     color: #20B2AA;
     transition: color 650ms;
 }
-*/
+
 
 .text-link:hover{ 
     color: #2f67cd;
@@ -418,25 +418,10 @@ ul.tech-list{
 }
 
 .portfolio-description h6{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 300;
     color: #20B2AA;
-    opacity: .7;
-}
-
-.portfolio-description .cta{
-    display: inline-block;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #3883ff;
-    color: #20B2AA;
-    transition: color 650ms;
-}
-
-.portfolio-description .cta:hover{
-    color: #2f67cd;
 }
 
 .app-links{
@@ -450,7 +435,21 @@ ul.tech-list{
 }
 
 .app-links li{
-    text-indent: -.8rem;
+    margin-left: 0px;
+}
+
+.app-links .cta{
+    display: inline;
+    font-size: 1.8rem;
+    text-indent: -2rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    color: #20B2AA;
+    transition: color 650ms; 
+}
+
+.app-links .cta:hover{
+    color: #2f67cd;
 }
 
 .app-links i{
